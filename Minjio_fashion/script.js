@@ -10,3 +10,6 @@ function closenavbar(){
     sidenav.style.left="-60%"
 }
 
+function subscribe(){
+alert("Subscribed")
+}
