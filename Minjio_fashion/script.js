@@ -11,5 +11,5 @@ function closenavbar(){
 }
 
 function subscribe(){
-alert("Subscribed")
+alert("Subscribed");
 }
