@@ -18,7 +18,7 @@
 
 <body>
     <nav class="navbar">
-        <h1>Mynjio</h1>
+        <h1>MYnjio</h1>
         <div class="navbar-links">
             <p class="navbar-link"><a href="index.html">Home</a></p>
             <p class="navbar-link"><a href="collection.html">Collections</a></p>
@@ -50,17 +50,21 @@
     <div class="contact">
         <h1>Contact Us</h1>
         <form action="https://formspree.io/f/xoqglqjw" method="POST">
-            <ul >
+            <ul>
                 <h2>Name</h2>
-                <input type="name" placeholder="">
+                <input id="name" type="name" placeholder="">
             </ul>
             <ul>
                <h2>Email</h2>
-                <input type="email" placeholder="">
+                <input id="email"type="email" placeholder="">
             </ul>
             <ul>
+                <h2>Product Code</h2>
+                 <input id="productCode"type="code" placeholder="" readonly>
+             </ul>
+            <ul>
                 <h2>Message</h2>
-                <textarea name="message"></textarea>
+                <textarea id="message"name="message"></textarea>
             </ul>
             <!-- your other form fields go here -->
             <button type="submit">Submit</button>
@@ -80,8 +84,7 @@
                 </div>
             </div>
         </div>
-        <p>@2024-<a href="https://mynjio-fashion-website.vercel.app/" style="color: #f2f4f7;">Mynjio.com
-    </a></p>
+        <p>@2024-Mynjio.com</p>
     </div>
 
     <script src="collection.js"></script>
